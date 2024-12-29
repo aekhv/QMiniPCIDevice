@@ -1,2 +1,15 @@
 # QMiniPCIDevice
-A parent class for QMiniNVMeDevice and QMiniAHCIDevice subclasses
+
+## Description
+This is a parent class for QMiniNVMeDevice and QMiniAHCIDevice subclasses.
+
+## Features
+- Available devices enumeration;
+- Driver version;
+- PCI device location (domain, bus, slot, function);
+- PCI device hardware ID (vendor, device, class, revision);
+- Hot-plug methods: device remove and PCI bus rescan;
+
+See MiniPCITestApp for more details.
+
+![](/img/screenshot.png)
